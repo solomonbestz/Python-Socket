@@ -1,0 +1,18 @@
+socket() It is used to create a socket object
+.bind((HOST, PORT)) It is used to associate the socket with a specific network interface and port number
+.listen() It enables a server to accept connections. It makes the server a “listening” socket
+.accept() This method blocks execution and waits for an incoming connection.
+.connect() This method is used to connect to the server
+.connect_ex() 
+.send()
+.recv()
+.close()
+
+
+Transmission Control Protocol (TCP Sockets)
+
+Why should you use TCP? The Transmission Control Protocol (TCP):
+
+Is reliable: Packets dropped in the network are detected and retransmitted by the sender.
+
+Has in-order data delivery: Data is read by your application in the order it was written by the sender.
